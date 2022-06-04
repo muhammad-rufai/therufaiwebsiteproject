@@ -1,0 +1,33 @@
+
+
+
+.logo{
+	max-width:100%;
+	padding:40px 0;
+}	
+body{
+font-family: 'Tiro Bangla', serif;
+}
+p{
+	color:#000000;
+}
+
+.container{
+	max-width:1300px;
+	margin:auto;
+	padding-left:400px;
+	padding-right:400px;
+}
+.btn{
+  background-color: #DAA03DFF;
+  color: white;
+  padding: 14px 200px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn:hover {
+  opacity:1;
+}

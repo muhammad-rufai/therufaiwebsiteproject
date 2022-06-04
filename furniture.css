@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+font-family: 'Tiro Bangla', serif;
+}
+p{
+	color:#000000;
+}
+h1{
+	color:#000000;
+	font-weight:normal;
+	text-align:center;
+}
+.title{
+	text-align:center;
+	margin:0 auto 80px;
+	position:relative;
+	line-height:60px;
+	color:#B5651D;
+}
+.btn{
+	display:inline-block;
+	background:#B5651D;
+	color:#fff;
+	padding: 8px 30px;
+	margin: 30px 0;
+	border-radius: 30px;
+	transition:background 0.5s;
+}
+.btn:hover{
+	background: #563434;
+}
+
+.row{
+	display: flex;
+	align-items: centre;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.small-container{
+	max-width:1080px;
+	margin:auto;
+	padding-left:25px;
+	padding-right:25px;
+}
+.col-4{
+	flex-basis:25px;
+	padding:10px;
+	min-width:200px;
+	margin-bottom:50px;
+	transition:transform 0.5s;
+}
+.col-4 img{
+	width:100%;
+}
+.col-4 p{
+	font-size:14px;
+	color:#000000;
+}
+.col-4:hover{
+	transform:translateY(-5px);
+}
